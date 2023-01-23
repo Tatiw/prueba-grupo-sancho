@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba Simple</title>
+    <!-- Estaba mal declarada la ruta del .css, debe ser styles.css -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- main content -->
+    <main>
+      <!-- CONTAINER -->
+      <div class="card">
+        <!-- IMAGE -->
+        <!-- Basado en la información del CSS, se ajustaron los divs -->
+        <div class="card__img">
+          <img
+            src="https://raw.githubusercontent.com/MizAndhre/Stats-preview-card-component/main/images/image-header-mobile.jpg"
+            alt="Header image"
+            class="card__img__mobile"
+          />
+          <img
+            src="https://raw.githubusercontent.com/MizAndhre/Stats-preview-card-component/main/images/image-header-desktop.jpg"
+            alt="Header image"
+            class="card__img__desktop"
+          />
+        </div>
+        <!-- CONTENT-->
+        <!-- Se completó el nombre de la clase: card__content -->
+        <div class="card__content">
+          <!-- TITLE -->
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <!-- PARAGRAPH -->
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <!-- FEATURES -->
+          <!-- Se nombraron correctamente las clases dentro de .card__features -->
+          <div class="card__features">
+            <div class="card__features__component">
+              <h2>10k+</h2>
+              <p>companies</p>
+            </div>
+            <div class="card__features__component">
+              <h2>314</h2>
+              <p>templates</p>
+            </div>
+            <div class="card__features__component">
+              <h2>12M+</h2>
+              <p>queries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main content -->
+  </body>
+</html>
